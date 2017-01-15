@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- General -->
+    <string name="app_name" translatable="false">Remote Control Collection</string>
+    <string name="interstitial_main_id" translatable="false">ca-app-pub-0964556634112634/1424472330</string>
+    <string name="interstitial_iap_id" translatable="false">ca-app-pub-0964556634112634/1446306336</string>
+    <string name="banner_main_id" translatable="false">ca-app-pub-0964556634112634/5476712735</string>
+
+    <string name="url_rcc" translatable="false">market://details?id=com.steppschuh.remotecontrolcollection</string>
+    <string name="url_rcc_pro" translatable="false">market://details?id=com.steppschuh.remotecontrolcollectionpro</string>
+    <string name="url_current_app" translatable="false">@string/url_rcc</string>
+
+    <!-- Start -->
+    <string name="start_remotes">Kendali</string>
+    <string name="start_remotes_desc">Mulai kendali perangkat</string>
+    <string name="start_devices">Perangkat</string>
+    <string name="start_devices_desc">Tambahkan atau atur perangkat</string>
+
+    <!-- Navigation -->
+    <string name="drawer_open">Buka</string>
+    <string name="drawer_close">Tutup</string>
+
+    <string name="title_remotes">Kendali</string>
+    <string name="title_devices">Perangkat</string>
+    <string name="title_info">Info</string>
+    <string name="title_help">Pertolongan</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="title_upgrade">Pembaharuan</string>
+
+    <!-- Devices -->
+    <string name="devicecs_add">tambahkan perangkat baru</string>
+    <string name="devicecs_ip">IP Address</string>
+    <string name="devicecs_name">Nama</string>
+    <string name="devicecs_ip_hint" translatable="false">192.168.1.23</string>
+    <string name="devicecs_name_hint">Media PC</string>
+    <string name="devicecs_in_network">PC in </string>
+    <string name="devicecs_unknown">tidak diketahui</string>
+
+    <string name="devicecs_pin_title">Pin perlindungan</string>
+    <string name="devicecs_pin_desc">dalam perlindungan. Mohon masukkan pin untuk konfirmasi.</string> <!-- starts with device name -->
+    <string name="devicecs_pin_refused">Perangkat menolak untuk disambungkan.</string>
+    <string name="devicecs_pin_accepted">Perangkat dikonfirmasi.</string>
+
+    <string name="devicecs_none_title">Tidak ada perangkat</string>
+    <string name="devicecs_none_desc">Mohon pastikan bahwa anda telah memulai Remote Control Server pada PC yang ingin anda kontrol.\n\nAnda dapat mengunduh server pada:\nhttp://server.android-remote.com</string>
+    <string name="devicecs_none_desc2">Jika PC anda tidak muncul, masukkan IP address secara manual dan pastikan perankat anda tersambung ke jaringan yang sama.\n\nAnda dapat menemukan instruksi troubleshooting lebih lanjut di Pertolongan.</string>
+
+    <!-- Device Status -->
+    <string name="status_unknown">Tidak diketahui</string>
+    <string name="status_connected">Tersambung</string>
+    <string name="status_disconnected">Terputus</string>
+    <string name="status_unavailable">Tidak tersedia</string>
+    <string name="status_available">Tersedia</string>
+    <string name="status_connecting">Menyambungkan</string>
+    <string name="status_searching">Mencari</string>
+    <string name="status_authenticating">mengkonfirmasi</string>
+
+    <!-- Remotes -->
+    <string name="remote">Kendali</string>
+    <string name="remote_mouse">Mouse</string>
+    <string name="remote_keyboard">Keyboard</string>
+    <string name="remote_browser">Browser</string>
+    <string name="remote_desktop">Desktop</string>
+    <string name="remote_presenter">Presenter</string>
+    <string name="remote_shortcuts">Shortcuts</string>
+    <string name="remote_voice">Suara</string>
+    <string name="remote_media">Media</string>
+    <string name="remote_custom">Custom</string>
+    <string name="remote_premium">Pro Version</string>
+    <string name="remote_remove_ads">Hapus iklan</string>
+
+    <string name="remote_mouse_desc">Kontrol kursor mouse anda seperti pada touchpad Laptop</string>
+    <string name="remote_keyboard_desc">Gunakan software keyboard untuk Mengetik di PC</string>
+    <string name="remote_browser_desc">Aksi yang sama untuk menjelajah web lebih mudah dengan jarak jauh</string>
+    <string name="remote_desktop_desc">Melihat layar PC anda tepat pada perangkat secara langsung</string>
+    <string name="remote_presenter_desc">Kontrol presentasi dan cek konten slide anda</string>
+    <string name="remote_shortcuts_desc">Akses cepat menggunakan shortcuts windows</string>
+    <string name="remote_voice_desc">Gunakan suara anda untuk mengirim perintah ke PC</string>
+    <string name="remote_media_desc">Kontrol beberapa media player dan system volume</string>
+    <string name="remote_custom_desc">Tetapkan custom aksi di Remote Control Server</string>
+    <string name="remote_premium_desc">Buak kunci semua kendali premium dan fitur lainya yang akan datang</string>
+    <string name="remote_remove_ads_desc">Bersihkan iklan dan dukung Pengembang</string>
+
+    <!-- Keyboard -->
+    <string name="keyboard_send_general">Tombol yang sama</string>
+    <string name="keyboard_send_advances">Tombol Function</string>
+    <string name="keyboard_copy">Salin</string>
+    <string name="keyboard_paste">Tempel</string>
+    <string name="keyboard_select_all">Pilih\nsemua</string>
+    <string name="keyboard_zoom_in">Perbesar</string>
+    <string name="keyboard_zoom_out">Perkecil</string>
+    <string name="keyboard_cut">Potong</string>
+    <string name="keyboard_close">tutup</string>
+    <string name="keyboard_shutdown">Matikan</string>
+    <string name="keyboard_fullscreen">Layar\nPenuh</string>
+    <string name="keyboard_page_down">Halaman\nturun</string>
+    <string name="keyboard_page_up">halaman\nnaik</string>
+    <string name="keyboard_desktop">Tunjukkan\ndesktop</string>
+    <string name="keyboard_function">Tombol Function</string>
+
+    <!-- Speech -->
+    <string name="speech">Bicara</string>
+    <!-- Comma sperated list of hotwords to detect commands (Seperti 'Lewati lagu' atau 'naikkan volume') -->
+    <string name="speech_identify_media">media,music,track,song,movie</string>
+    <string name="speech_identify_media_next">next,skip,forward</string>
+    <string name="speech_identify_media_previous">back,previous,last</string>
+    <string name="speech_identify_media_pause">pause,resume,play,stop</string>
+    <string name="speech_identify_volume">volume,audio</string>
+    <string name="speech_identify_volume_up">up,increase,louder</string>
+    <string name="speech_identify_volume_down">down,decrease</string>
+    <string name="speech_identify_volume_mute">mute,unmute,off,on,silence</string>
+
+    <!-- Upgrades -->
+    <string name="upgrade_code_title">Upgrade Gratis</string>
+    <string name="upgrade_code_description">Dapatkan atau aktifkan kode pembuka</string>
+    <string name="upgrade_iap_title">Upgrade Berbayar</string>
+    <string name="upgrade_iap_description">Pembelian Remote premium</string>
+
+    <string name="upgrade_code_activate">Aktifkan kode</string>
+    <string name="upgrade_code_hint_inactive">Masukkan kode disini</string>
+    <string name="upgrade_code_hint_active">Pembuka Kode aktif</string>
+
+    <string name="upgrade_code_get_title">Tentang pembuka kode</string>
+    <string name="upgrade_code_get_desc">Anda dapat membuka fitur premium secara gratis dengan mengaktifkan kode.\n\nBeberapa kode hanya valid dalam waktu yang terbatas, beberapa tidak akan kadaluarsa. kode Trial hanya dapat diaktifkan sekali.</string>
+    <string name="upgrade_iap_get_title">Tentang upgrade berbayar</string>
+    <string name="upgrade_iap_get_desc">Upgrade berbayar tidak akan kadaluarsa dan akan membukan lewat semua perangkat.\n\nbeberapa Upgrade akan menghapus iklan.</string>
+
+    <string name="upgrade_code_facebook_title">Facebook</string>
+    <string name="upgrade_code_facebook_description">Kamu dapat mendapatkan kode trial gratis dari Facebook page kami.\n\nUntuk mendapatkan kode anda, buka:\nhttp://code.android-remote.com</string>
+    <string name="upgrade_code_google_title">Google+</string>
+    <string name="upgrade_code_google_description">Jika Anda masuk sebagai beta tester pada Google+, Kamu juga akan mendapat kode trial gratis.\n\nUntuk menerima kodemu, buka:\nhttp://beta.android-remote.com</string>
+    <string name="upgrade_code_ad_title">video Sponsor</string>
+    <string name="upgrade_code_ad_description">Menonton iklan akan membuka semua remote Premium untuk sekali sesi.\n\nOpsi ini mungkin tidak akan tersedia setiap waktu.</string>
+    <string name="upgrade_code_translate_title">Terjemah</string>
+    <string name="upgrade_code_translate_description">Bantu Kami terjemahkan aplikasi ini ke bahasa anda dan kami akan memberi anda penghargaan dengan you Kode tidak terbatas dari usahamu.\n\nemail kami untuk pelajari lebih lanjut: contact@android-remote.com</string>
+
+    <string name="upgrade_trial_activated">Kode trial telah diaktifkan.</string>
+    <string name="upgrade_pro_activated">Versi Pro telah diaktifkan.</string>
+
+    <string name="upgrade_remote_locked">Remote terkunci</string>
+    <string name="upgrade_remote_locked_desc">remote ini adalah fitur Pro. Anda dapat melihat iklan, aktifkan kode atau membeli upgrate untuk melihat ini.</string>
+    <string name="upgrade_remote_locked_pirate">Dilarang membajak</string>
+    <string name="upgrade_remote_locked_pirate_desc">remote ini telah dikunci karena anda tidak menggunakan aplikasi versi asli.</string>
+
+    <string name="upgrade_untrusted_source">aplikasi tealah dibajak</string>
+    <string name="upgrade_untrusted_source_desc">Sayangnya anda sepertinya tidak membeli upgrade yang anda coba gunakan.\n\nAplikasi anda akan turun menjadi versi gratis sekarang.</string>
+    <string name="upgrade_pirate_toast">Yarr! I\'m a mighty Pirate!</string>
+
+    <!-- Info -->
+    <string name="info_app">Info Perangkat</string>
+    <string name="info_app_version">App version</string>
+    <string name="info_app_ip">IP address</string>
+    <string name="info_app_ssid">Network SSID</string>
+
+    <string name="info_commands">Commands</string>
+    <string name="info_commands_sent">Terkirim</string>
+    <string name="info_commands_received">diterima</string>
+
+    <string name="info_links">Temui kami</string>
+    <string name="info_links_facebook" translatable="false">Facebook</string>
+    <string name="info_links_google" translatable="false">Google+</string>
+    <string name="info_links_store_googleplay" translatable="false">Play Store</string>
+    <string name="info_links_store_amazon" translatable="false">Amazon Store</string>
+    <string name="info_links_store_other" translatable="false">App Store</string>
+    <string name="info_links_store" translatable="false">@string/info_links_store_googleplay</string>
+
+    <!-- Disclaimer (no need to translate this) -->
+    <string name="info_disclaimer">Disclaimer</string>
+    <string name="info_disclaimer_app" translatable="false">@string/app_name</string>
+    <string name="info_disclaimer_app_desc">Available for Android, BlackBerry and iOS.\nCopyright © Steppschuh, license details at:\nremote-control-collection.com</string>
+    <string name="info_disclaimer_server">Remote Control Server</string>
+    <string name="info_disclaimer_server_desc">Available for Windows. The source code is available at GitHub and may be modified for private use.\nCopyright © Steppschuh, license details at:\ngithub.com/Steppschuh/RemoteControlServer</string>
+    <string name="info_disclaimer_icons">Icons</string>
+    <string name="info_disclaimer_icons_desc">All icons are either released under an Attribution 4.0 International license by Google Inc. or by Steppschuh.</string>
+    <string name="info_disclaimer_analytics">Analytics</string>
+    <string name="info_disclaimer_analytics_desc">This app uses Google Analyitcs to collect anonymous usage data, including your language, gender, age and which remotes you preferably use. This helps us to improve your experience when using this app.</string>
+    <string name="info_disclaimer_admob">AdMob</string>
+    <string name="info_disclaimer_admob_desc">AdMob is an advertising service provided by Google Inc. that allows us to display interest based ads in order to monetize the free app. Ads will be removed by any paid upgrade.</string>
+
+    <!-- Help -->
+    <string name="help_first_start_title">Memulai</string>
+    <string name="help_first_start_desc">Untuk memulai kontrol PC anda, Buka website ini pada perangkat yang akan anda kendalikan:\n\nhttp://setup.android-remote.com</string>
+    <string name="help_connect">Atur konektivitas</string>
+    <string name="help_connect_desc">Ikuti panduan ini untuk mempelajari bagaimana mengatur koneksi antar perangkat anda.</string>
+    <string name="help_troubleshooting">Troubleshooting</string>
+    <string name="help_troubleshooting_desc">Jika anda mempunyai isu berdasarkan panduan pengaturan, Baca ini untuk mempelajari bagaimana memperbaiki beberapa isu.</string>
+    <string name="help_faq">Pertanyaan yang sering muncul</string>
+    <string name="help_faq_desc">Pertanyaan yang berhubungn dengan aplikasi ini atau Remote Control Server mungkin telah terjawab. Anda juga dapat menambahkan pertanyaan disini.</string>
+    <string name="help_support">Support</string>
+    <string name="help_support_desc">Jika anda memiliki beberapa isu, Silahkan hubungi kami. Kami akan menghubungi anda secepat mungkin.\n\nPlease do us a favor and read the guides and FAQ before reaching out to us.</string>
+    <string name="help_feedback">Feedback</string>
+    <string name="help_feedback_desc">Biarkan kami tau apa yang anda pikirkan, feedback anda yang membantu kami mengembangkan aplikasi ini!</string>
+
+    <!-- Units -->
+    <string name="unit_day">day</string>
+    <string name="unit_days">days</string>
+
+    <!-- Errors -->
+    <string name="error_device_name_empty">Nama perangkat tidak boleh kosong</string>
+    <string name="error_device_ip_empty">Mohon masukkan IP address PC anda</string>
+    <string name="error_device_ip_invalid">Mohon masukkan IP address yang benar</string>
+
+    <string name="error_code_invalid">Kode ini tidak valid</string>
+    <string name="error_unknown">Sesuatu terjadi kesalahan, mohon coba lagi.</string>
+    <string name="error_code_limit_reached">batas registrasi pada kode telah habis.</string>
+    <string name="error_code_expired">Kode registrasi telah kadaluarsa, Anda tidak dapat mengaktifkan lagi.</string>
+    <string name="error_trial_expired">trial anda telah berakhir</string>
+    <string name="error_trial_used">Anda telah menggunakan trial kode sebelumnya, Anda mungkin hanya dapat mengaktifkan satu kode pada satu perangkat.</string>
+    <string name="error_iap_not_supported">aplikasi pembayaran tidak didukung di perangkat ini.</string>
+    <string name="error_no_speech_recognition">Tidak ada pembicaraan yang diakui</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Batalkan</string>
+    <string name="dialog_later">Nanti</string>
+    <string name="dialog_unlock">Buka</string>
+    <string name="dialog_try">coba</string>
+    <string name="dialog_success">Sukses</string>
+    <string name="dialog_error">Error</string>
+    <string name="dialog_info">Info</string>
+    <string name="dialog_changelog">Changelog</string>
+
+    <!-- Updates -->
+    <string name="update_server_required">Server update</string>
+    <string name="update_server_required_desc">Versi aplikasi ini membutuhkan Remote Control Server versi baruuntuk bekerja.\n\nMohon update Server anda atau unduh versi terbaru di:\nhttp://server.android-remote.com</string>
+
+    <!-- Hints -->
+    <string name="hint_title">taukah anda?</string>
+    <string name="hint_close_button">tau</string>
+    <string name="hint_mouse_multitouch">Anda dapat menggunakan gestur multitouch untuk scrolling dan pembesaran.</string>
+    <string name="hint_media_volume_buttons">Anda dapat menggunakan tombol volumeuntuk mengontrol remote system volume anda.</string>
+    <string name="hint_presenter_volume_buttons">Anda dapat menggunakan tombol Volume untuk mengganti slide.</string>
+    <string name="hint_keyboard_advanced">Anda dapat mengusap ke kiri untuk menunjukkan fungsi tombol dan shortcuts.</string>
+    <string name="hint_free_trial">Anda dapat mencoba versi prosecara gratis dengan mengaktifkan kode.\n\npergin ke Upgrade untuk mempelajari lebih lanjut.</string>
+    <string name="hint_remove_ads">Anda dapat menghilangkan iklan dengan membuka remote premium.\n\npergin ke Upgrade untuk mempelajari lebih lanjut.</string>
+    <string name="hint_feedback_title">Nikmati aplikasi ini?</string>
+    <string name="hint_feedback_desc">Feedback anda membantu kami dalam mengembangkan produk kami.\n\nMohon biarkan kami tau apa yang ada dalam pikiran anda dan rate aplikasi ini.</string>
+    <string name="hint_wifi_title">WiFi dibutuhkan</string>
+    <string name="hint_wifi_desc">Anda membutuhkan koneksi ke WiFi network dalam menghubungkan ke perangkat anda.</string>
+    <string name="hint_available_in_rcc_title">tidak termasuk</string>
+    <string name="hint_available_in_rcc_desc">Remote ini bagian dari aplikasi Remote Control Collection.</string>
+    <string name="hint_watched_rewarded_video_title">Terbuka secara temporer</string>
+    <string name="hint_watched_rewarded_video_desc">Dengan menonton iklan ini, anda membuka remote ini untuk beberapa sesi.\n\nMohon diingat bahwa opsi ini tidak tersedia selamanya.</string>
+    <string name="hint_experienced_user_title">You\'re a Pro!</string>
+    <string name="hint_experienced_user_desc">Anda terlihat telah menggunakan aplikasi ini sangat banyak. \n\nkami sangat senang untuk mendengar feedback anda, mohon untuk menulis review dan mengirimnya pada email kami!</string>
+
+    <!-- Settings -->
+    <string name="pref_cat_general">Umum</string>
+    <string name="pref_haptic_feedback">Haptic feedback</string>
+    <string name="pref_haptic_feedback_desc">Getaran pada command terkirim</string>
+    <string name="pref_low_hardware_performance">Performa perangkat rendah</string>
+    <string name="pref_low_hardware_performance_desc">Matikan beberapa animasi</string>
+    <string name="pref_low_screen_quality">Performa layar rendah</string>
+    <string name="pref_low_screen_quality_desc">Permintaan kualitas screenshots lebih rendah</string>
+    <string name="pref_low_update_frequency">frekuensi update rendah</string>
+    <string name="pref_low_update_frequency_desc">kurang mengirim perintah per detik</string>
+
+    <!-- Misc. Stuff -->
+    <string name="work_in_progress">Dalam proses</string>
+
+</resources>
